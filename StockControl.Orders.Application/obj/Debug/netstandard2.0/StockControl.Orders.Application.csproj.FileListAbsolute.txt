@@ -1,0 +1,4 @@
+C:\Users\laure\source\repos\StockControl\StockControl.Orders.Application\bin\Debug\netstandard2.0\StockControl.Orders.Application.deps.json
+C:\Users\laure\source\repos\StockControl\StockControl.Orders.Application\bin\Debug\netstandard2.0\StockControl.Orders.Application.dll
+C:\Users\laure\source\repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.0\StockControl.Orders.Application.AssemblyInfoInputs.cache
+C:\Users\laure\source\repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.0\StockControl.Orders.Application.AssemblyInfo.cs

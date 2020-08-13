@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30223.230
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockControl", "StockControl\StockControl.csproj", "{6755A85F-4556-4859-9EDE-AF5CF15012E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orders", "Orders", "{B8868FEA-FE5A-43AB-83DD-C19F352F833E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockControl.Orders", "StockControl.Orders\StockControl.Orders.csproj", "{314BA1D0-570F-4CDE-B9BA-C8450FC146A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsFor.StockControl.Orders", "TestsFor.StockControl.Orders\TestsFor.StockControl.Orders.csproj", "{0215B84E-7420-4CB6-8EEC-AFAA30B90592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockControl.Orders.Application", "StockControl.Orders.Application\StockControl.Orders.Application.csproj", "{21B3A26E-89D1-41C1-AB58-E320C04AB210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsFor.StockControl.Orders.Application", "TestsFor.StockControl.Orders.Application\TestsFor.StockControl.Orders.Application.csproj", "{9EC80DE0-B8C0-4F6B-9E66-CC3BBD7DD6C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6755A85F-4556-4859-9EDE-AF5CF15012E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6755A85F-4556-4859-9EDE-AF5CF15012E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6755A85F-4556-4859-9EDE-AF5CF15012E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6755A85F-4556-4859-9EDE-AF5CF15012E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314BA1D0-570F-4CDE-B9BA-C8450FC146A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314BA1D0-570F-4CDE-B9BA-C8450FC146A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314BA1D0-570F-4CDE-B9BA-C8450FC146A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314BA1D0-570F-4CDE-B9BA-C8450FC146A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0215B84E-7420-4CB6-8EEC-AFAA30B90592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0215B84E-7420-4CB6-8EEC-AFAA30B90592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0215B84E-7420-4CB6-8EEC-AFAA30B90592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0215B84E-7420-4CB6-8EEC-AFAA30B90592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B3A26E-89D1-41C1-AB58-E320C04AB210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B3A26E-89D1-41C1-AB58-E320C04AB210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B3A26E-89D1-41C1-AB58-E320C04AB210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B3A26E-89D1-41C1-AB58-E320C04AB210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC80DE0-B8C0-4F6B-9E66-CC3BBD7DD6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC80DE0-B8C0-4F6B-9E66-CC3BBD7DD6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC80DE0-B8C0-4F6B-9E66-CC3BBD7DD6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC80DE0-B8C0-4F6B-9E66-CC3BBD7DD6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{314BA1D0-570F-4CDE-B9BA-C8450FC146A1} = {B8868FEA-FE5A-43AB-83DD-C19F352F833E}
+		{0215B84E-7420-4CB6-8EEC-AFAA30B90592} = {B8868FEA-FE5A-43AB-83DD-C19F352F833E}
+		{21B3A26E-89D1-41C1-AB58-E320C04AB210} = {B8868FEA-FE5A-43AB-83DD-C19F352F833E}
+		{9EC80DE0-B8C0-4F6B-9E66-CC3BBD7DD6C8} = {B8868FEA-FE5A-43AB-83DD-C19F352F833E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B68A2D0-0247-4AF3-AAC6-048DBF6ABEEF}
+	EndGlobalSection
+EndGlobal

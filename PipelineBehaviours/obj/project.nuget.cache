@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7shKntf/ZDAwYFBwaPvipc9WVdVGCQs/r6rDqRcVtSr7rZaW/X/j07EOZw3Qe0dThF6O8u0l8HNaVl5ybOWVOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\laure\\source\\repos\\StockControl\\PipelineBehaviours\\PipelineBehaviours.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laure\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

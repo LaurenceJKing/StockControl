@@ -1,0 +1,9 @@
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\bin\Debug\netstandard2.0\StockControl.Domain.deps.json
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\bin\Debug\netstandard2.0\StockControl.Domain.dll
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\bin\Debug\netstandard2.0\StockControl.Domain.pdb
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\obj\Debug\netstandard2.0\StockControl.Domain.AssemblyInfoInputs.cache
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\obj\Debug\netstandard2.0\StockControl.Domain.AssemblyInfo.cs
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\obj\Debug\netstandard2.0\StockControl.Domain.csproj.CoreCompileInputs.cache
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\obj\Debug\netstandard2.0\StockControl.Domain.dll
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\obj\Debug\netstandard2.0\StockControl.Domain.pdb
+C:\Users\laure\source\repos\StockControl\StockControl.Domain\obj\Debug\netstandard2.0\StockControl.Domain.csprojAssemblyReference.cache
