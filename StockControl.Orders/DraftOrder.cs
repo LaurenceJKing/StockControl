@@ -24,8 +24,8 @@ namespace StockControl.Orders
             Quantity quantity,
             string? notes = null)
         {
-            if (Status != DraftOrderStatus.Draft)
-                throw OrderAlreadyPlacedException();
+            EnsureIsDraft();
+            EnsureValidQuantity(quantity);
 
             if (Contains(lineItem)) Remove(lineItem);
 
@@ -35,11 +35,8 @@ namespace StockControl.Orders
 
         public void Remove(LineItem lineItem, string? notes = null)
         {
-            if (Status != DraftOrderStatus.Draft)
-                throw OrderAlreadyPlacedException();
-
-            if (!Contains(lineItem))
-                throw OrderDoesNotContainLineItemException(lineItem);
+            EnsureIsDraft();
+            EnsureContains(lineItem);
 
             _items.RemoveAll(item => item.LineItem.Id == lineItem.Id);
             _events.Add(new ItemRemovedFromOrderEvent(lineItem, notes));
@@ -47,11 +44,8 @@ namespace StockControl.Orders
 
         public void Place()
         {
-            if (Status != DraftOrderStatus.Draft)
-                throw OrderAlreadyPlacedException();
-
-            if(!Items.Any())
-            throw OrderContainsNoItemsException();
+            EnsureIsDraft();
+            EnsureAnyItems();
 
             _events.AddRange(Items
                 .GroupBy(item => item.LineItem.SupplierId)
@@ -69,23 +63,38 @@ namespace StockControl.Orders
 
         public bool Contains(LineItem lineItem) => Contains(lineItem, out var _);
 
-        private Exception OrderAlreadyPlacedException() =>
-            new InvalidOperationException(
-                $"{nameof(DraftOrder)} {Id} has already been placed and cannot be updated." +
+        private void EnsureValidQuantity(Quantity quantity)
+        {
+            if (quantity >= 1) return;
+            throw new ArgumentOutOfRangeException(
+                nameof(quantity),
+                quantity,
+                $"Quantities of 0 or less cannot be added to a {nameof(DraftOrder)}.");
+        }
+
+        private void EnsureIsDraft()
+        {
+            if (Status == DraftOrderStatus.Draft) return;
+            throw new InvalidOperationException(
+                $"{nameof(DraftOrder)} {Id} " +
+                $"does not have a {nameof(Status)} of {nameof(DraftOrderStatus.Draft)}." +
                 "\r\n\r\n" +
                 $"Consider creating a new {nameof(DraftOrder)}.");
+        }
 
-        private Exception OrderDoesNotContainLineItemException(LineItem lineItem) => 
-            new InvalidOperationException(
-                $"{nameof(DraftOrder)} {Id} does not contain the {nameof(LineItem)} {lineItem.Id}" +
-                "\r\n\r\n" +
-                $"Consider adding the {nameof(LineItem)} using the {nameof(AddOrUpdate)} method.");
+        private void EnsureContains(LineItem lineItem)
+        {
+            if (Contains(lineItem)) return;
+            throw new InvalidOperationException(
+                $"{nameof(DraftOrder)} {Id} does not contain the {nameof(LineItem)} {lineItem.Id}");
+        }
 
-        private Exception OrderContainsNoItemsException() =>
-            new InvalidOperationException(
-                $"{nameof(DraftOrder)} {Id} does not contain any items" +
-                "\r\n\r\n" +
-                $"Consider adding items using the {nameof(AddOrUpdate)} method.");
+        private void EnsureAnyItems()
+        {
+            if (Items.Any()) return;
+            throw new InvalidOperationException(
+                $"{nameof(DraftOrder)} {Id} does not contain any items.");
+        }
     }
 
     public enum DraftOrderStatus

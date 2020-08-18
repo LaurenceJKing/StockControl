@@ -100,7 +100,7 @@ namespace StockControl.Orders.Application
 
     public class CreateOrderRequest: IRequest<DraftOrderViewModel>
     {
-        public IEnumerable<StockRequirementDTO> RequiredStock { get; }
+        public IEnumerable<StockRequirementDTO> RequiredStock { get; set; }
     }
 
     public class StockRequirementDTO
