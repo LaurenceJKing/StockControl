@@ -13,6 +13,6 @@ C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\bin\D
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\obj\Debug\netstandard2.1\StockControl.Orders.csprojAssemblyReference.cache
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\obj\Debug\netstandard2.1\StockControl.Orders.AssemblyInfoInputs.cache
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\obj\Debug\netstandard2.1\StockControl.Orders.AssemblyInfo.cs
-C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\obj\Debug\netstandard2.1\StockControl.Orders.csproj.CoreCompileInputs.cache
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\obj\Debug\netstandard2.1\StockControl.Orders.dll
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\obj\Debug\netstandard2.1\StockControl.Orders.pdb
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders\obj\Debug\netstandard2.1\StockControl.Orders.csproj.CoreCompileInputs.cache

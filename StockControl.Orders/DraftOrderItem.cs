@@ -4,6 +4,7 @@ namespace StockControl.Orders
 {
     public class DraftOrderItem
     {
+        private DraftOrderItem() { }
         internal DraftOrderItem(LineItem lineItem, Quantity quantity)
         {
             if (quantity < 1)

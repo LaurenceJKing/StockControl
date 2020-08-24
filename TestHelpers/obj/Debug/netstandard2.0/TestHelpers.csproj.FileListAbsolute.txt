@@ -1,0 +1,8 @@
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\bin\Debug\netstandard2.0\TestHelpers.deps.json
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\bin\Debug\netstandard2.0\TestHelpers.dll
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netstandard2.0\TestHelpers.csprojAssemblyReference.cache
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netstandard2.0\TestHelpers.AssemblyInfoInputs.cache
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netstandard2.0\TestHelpers.AssemblyInfo.cs
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\bin\Debug\netstandard2.0\TestHelpers.pdb
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netstandard2.0\TestHelpers.dll
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netstandard2.0\TestHelpers.pdb

@@ -2,6 +2,7 @@
 {
     public class SupplierOrderItem
     {
+        private SupplierOrderItem() { }
         public SupplierOrderItem(
             LineItem lineItem,
             Quantity quantityOrdered)

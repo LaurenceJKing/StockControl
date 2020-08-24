@@ -288,3 +288,5 @@ C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestsFor.StockControl.Ord
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestsFor.StockControl.Orders\obj\Debug\netcoreapp3.1\TestsFor.StockControl.Orders.dll
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestsFor.StockControl.Orders\obj\Debug\netcoreapp3.1\TestsFor.StockControl.Orders.pdb
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestsFor.StockControl.Orders\obj\Debug\netcoreapp3.1\TestsFor.StockControl.Orders.genruntimeconfig.cache
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestsFor.StockControl.Orders\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestsFor.StockControl.Orders\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll

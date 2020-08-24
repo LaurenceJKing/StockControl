@@ -6,6 +6,7 @@ namespace StockControl.Orders
 {
     public class SupplierOrder
     {
+        private SupplierOrder() { }
         public SupplierOrder(
             int supplierId,
             int orderId,

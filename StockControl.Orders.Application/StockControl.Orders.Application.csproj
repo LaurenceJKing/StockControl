@@ -9,6 +9,9 @@
     <PackageReference Include="AutoMapper" Version="10.0.0" />
     <PackageReference Include="FluentValidation" Version="9.0.1" />
     <PackageReference Include="MediatR" Version="8.1.0" />
+    <PackageReference Include="MediatR.Pipelines.Caching" Version="1.0.0" />
+    <PackageReference Include="MediatR.Pipelines.FluentValidation" Version="1.0.0" />
+    <PackageReference Include="MediatR.Pipelines.Logging" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

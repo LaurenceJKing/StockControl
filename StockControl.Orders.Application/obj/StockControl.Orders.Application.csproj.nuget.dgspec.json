@@ -57,6 +57,18 @@
             "MediatR": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "MediatR.Pipelines.Caching": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MediatR.Pipelines.FluentValidation": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MediatR.Pipelines.Logging": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -116,6 +128,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.6, )"

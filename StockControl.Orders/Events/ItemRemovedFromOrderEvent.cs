@@ -4,6 +4,7 @@
     {
         public LineItem LineItem { get; private set; }
 
+        private ItemRemovedFromOrderEvent() { }
         public ItemRemovedFromOrderEvent(
             LineItem lineItem,
             string? notes = null)

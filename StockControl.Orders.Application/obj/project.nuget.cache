@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "s2g5GmZoh22j11n3M4dm8Gv14Iy452jReuYP24FGANBpgewpmMG3FaCrLkl9E49Ld/kesGnY0RCtQ7YCUAn4gQ==",
+  "dgSpecHash": "mY4xyhVkLDawKKt9b/y+ywCHvUb/0oEUfMuvfwcZFlWGH/muaLCmLUCv7OjWwFpjyONT7fhWjm9ZmAolBgbEFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\laure\\source\\LaurenceJKing\\Repos\\StockControl\\StockControl.Orders.Application\\StockControl.Orders.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\laure\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\fluentvalidation\\9.0.1\\fluentvalidation.9.0.1.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\mediatr.pipelines.caching\\1.0.0\\mediatr.pipelines.caching.1.0.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\mediatr.pipelines.fluentvalidation\\1.0.0\\mediatr.pipelines.fluentvalidation.1.0.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\mediatr.pipelines.localization\\1.0.0\\mediatr.pipelines.localization.1.0.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\mediatr.pipelines.logging\\1.0.0\\mediatr.pipelines.logging.1.0.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -20,6 +26,7 @@
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\3.1.6\\microsoft.extensions.localization.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\microsoft.extensions.logging.3.1.6.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
@@ -32,7 +39,57 @@
     "C:\\Users\\laure\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Your token has not been granted the required scopes to execute this query. The 'name' field requires one of the following scopes: ['read:packages'], but your token has only been granted the: [''] scopes. Please modify your token's scopes at: https://github.com/settings/tokens."
+    }
+  ]
 }

@@ -11,7 +11,7 @@ namespace StockControl.Orders
 
         private readonly List<OrderEvent> _events = new List<OrderEvent>();
 
-        public int Id { get; internal set; }
+        public int Id { get; private set; }
 
         public DraftOrderStatus Status { get; private set; }
 

@@ -5,6 +5,8 @@ namespace StockControl.Orders.LineItemSelectionStrategies
 {
     public class LineItemSelectionStrategy
     {
+        public int Id { get; private set; }
+
         internal virtual LineItem SelectLineItemToOrder(
             IEnumerable<LineItem> lineItems,
             Product product) =>

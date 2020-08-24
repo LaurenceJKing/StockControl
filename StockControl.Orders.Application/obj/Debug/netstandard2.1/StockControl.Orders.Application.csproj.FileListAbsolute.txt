@@ -18,7 +18,7 @@ C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Appli
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.csprojAssemblyReference.cache
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.AssemblyInfoInputs.cache
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.AssemblyInfo.cs
-C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.csproj.CoreCompileInputs.cache
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.csproj.CopyComplete
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.dll
 C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.pdb
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\StockControl.Orders.Application\obj\Debug\netstandard2.1\StockControl.Orders.Application.csproj.CoreCompileInputs.cache

@@ -1,0 +1,9 @@
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\bin\Debug\netcoreapp3.1\TestHelpers.deps.json
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\bin\Debug\netcoreapp3.1\TestHelpers.dll
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\bin\Debug\netcoreapp3.1\TestHelpers.pdb
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netcoreapp3.1\TestHelpers.csprojAssemblyReference.cache
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netcoreapp3.1\TestHelpers.AssemblyInfoInputs.cache
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netcoreapp3.1\TestHelpers.AssemblyInfo.cs
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netcoreapp3.1\TestHelpers.csproj.CoreCompileInputs.cache
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netcoreapp3.1\TestHelpers.dll
+C:\Users\laure\source\LaurenceJKing\Repos\StockControl\TestHelpers\obj\Debug\netcoreapp3.1\TestHelpers.pdb

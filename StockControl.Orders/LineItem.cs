@@ -14,6 +14,13 @@ namespace StockControl.Orders
 
         public double ItemsPerPack { get; private set; } = 1;
 
+        private LineItem() { }
+        public LineItem(Product product, decimal priceInPounds)
+        {
+            Product = product;
+            PriceInPounds = priceInPounds;
+        }
+
         public Quantity CalculateTotalPacks(int totalItems) =>
             (Quantity)(totalItems * ItemsPerPack);
 

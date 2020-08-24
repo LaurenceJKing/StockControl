@@ -7,7 +7,7 @@ namespace StockControl.Orders
     {
         public int Id { get; private set; }
 
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
         public LineItemSelectionStrategy LineItemSelectionStrategy { get; set; } = new LineItemSelectionStrategy();
 

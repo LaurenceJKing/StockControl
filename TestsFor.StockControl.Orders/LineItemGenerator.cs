@@ -17,7 +17,7 @@ namespace TestsFor.StockControl.Orders
         public static Arbitrary<LineItem> GenerateLineItem() =>
             Arb.From(Arb.Generate<int>().Two().Select(_ =>
             {
-                var lineItem = new LineItem();
+                var lineItem = new LineItem(new Product(), 0m);
                 lineItem.SetProperty(_ => _.Id, _.Item1);
                 lineItem.SetProperty(_ => _.Product, CreateProduct(_.Item2));
                 return lineItem;

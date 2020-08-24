@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k5n/r9554+MD0uu4JRIHACHiv7n7mFhghVsJU6LLkrAhMRMjpFuLclDEVeZCi64a+vCX72QPEkY5R3+aFVGs+g==",
+  "dgSpecHash": "BvMCVxI8Pka9e8f/1eeF+afF7GpSXgEeFacC1G+iEIsyf1VSvhuAl0tvy/yF8d9Hrof0jJSV6k1AbTIF2YP/Rw==",
   "success": true,
   "projectFilePath": "C:\\Users\\laure\\source\\LaurenceJKing\\Repos\\StockControl\\TestsFor.StockControl.Orders\\TestsFor.StockControl.Orders.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\laure\\.nuget\\packages\\fscheck\\2.14.3\\fscheck.2.14.3.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\fscheck.xunit\\2.14.3\\fscheck.xunit.2.14.3.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\fsharp.core\\4.2.3\\fsharp.core.4.2.3.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\laure\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -98,6 +100,7 @@
     "C:\\Users\\laure\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.1.0\\system.security.cryptography.x509certificates.4.1.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.text.encoding\\4.0.11\\system.text.encoding.4.0.11.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.text.regularexpressions\\4.1.0\\system.text.regularexpressions.4.1.0.nupkg.sha512",
     "C:\\Users\\laure\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
