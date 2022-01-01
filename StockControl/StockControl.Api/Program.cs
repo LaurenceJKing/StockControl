@@ -16,7 +16,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapPost("orders/create", () => Results.Created(string.Empty, Guid.NewGuid()));
+app.MapPost("orders/create", () =>
+{
+    var id = "dc069aeb-5eb9-4f1b-9dba-bcc7d7b0c47d";
+    return Results.Created($"/orders/{id}", id);
+});
 
 app.UseHttpsRedirection();
 
