@@ -5,7 +5,14 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockControl.Api", "StockControl.Api\StockControl.Api.csproj", "{6537C147-054F-4E78-96DA-728DE460C898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockControl.Api.Tests", "StockControl.Api.Tests\StockControl.Api.Tests.csproj", "{803E36AD-9130-4A7F-9780-DA21A4BA96E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockControl.Api.Tests", "StockControl.Api.Tests\StockControl.Api.Tests.csproj", "{803E36AD-9130-4A7F-9780-DA21A4BA96E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockControl.Orders", "StockControl.Orders\StockControl.Orders.csproj", "{CE99DFFF-E0F1-4FF9-8E87-8D5E221A33FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27F286E5-153D-44BD-8D79-1236632A4AA7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{803E36AD-9130-4A7F-9780-DA21A4BA96E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{803E36AD-9130-4A7F-9780-DA21A4BA96E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{803E36AD-9130-4A7F-9780-DA21A4BA96E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE99DFFF-E0F1-4FF9-8E87-8D5E221A33FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE99DFFF-E0F1-4FF9-8E87-8D5E221A33FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE99DFFF-E0F1-4FF9-8E87-8D5E221A33FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE99DFFF-E0F1-4FF9-8E87-8D5E221A33FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

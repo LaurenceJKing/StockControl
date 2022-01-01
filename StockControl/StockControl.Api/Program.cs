@@ -1,4 +1,10 @@
+using StockControl.Orders.IOC;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddOrderServices();
+
+builder.Services.AddControllers();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -16,12 +22,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapPost("orders/create", () =>
-{
-    var id = "dc069aeb-5eb9-4f1b-9dba-bcc7d7b0c47d";
-    return Results.Created($"/orders/{id}", id);
-});
-
 app.UseHttpsRedirection();
+
+app.MapControllers();
 
 app.Run();

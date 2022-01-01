@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StockControl.Api\StockControl.Api.csproj" />
+    <ProjectReference Include="..\StockControl.Orders\StockControl.Orders.csproj" />
   </ItemGroup>
 
 </Project>
