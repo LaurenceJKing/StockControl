@@ -19,7 +19,7 @@ namespace StockControl.Api.Orders
 
             var response = new CreateOrderResponse
             {
-                Id = order.Id.ToString(),
+                Id = order.Id,
             };
 
             return Created($"orders/{order.Id}", response);            

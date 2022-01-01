@@ -2,7 +2,7 @@
 {
     public class CreateOrderResponse : IEquatable<CreateOrderResponse?>
     { 
-        public string Id { get; set; } = string.Empty;
+        public Guid Id { get; set; }
 
         public override bool Equals(object? obj)
         {

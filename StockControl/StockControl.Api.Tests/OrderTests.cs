@@ -36,7 +36,7 @@ namespace StockControl.Api.Tests
             response.StatusCode.Should().Be(HttpStatusCode.Created);
             response.Headers?.Location?.ToString().Should().Be($"orders/{order!.Id}");
 
-            repository.Should().Contain(o => o.Id.ToString() == order!.Id);
+            repository.Should().Contain(o => o.Id == order!.Id);
         }
     }
 }
