@@ -13,11 +13,16 @@ namespace StockControl.Api.Orders
         [HttpPost("create")]
         public async Task<IActionResult> Create([FromServices]IOrderRepository orderRepository)
         {
-            var id = "dc069aeb-5eb9-4f1b-9dba-bcc7d7b0c47d";
+            var order = new Order();
 
-            await orderRepository.Create(new Order());
+            await orderRepository.Create(order);
 
-            return Created($"orders/{id}", null);            
+            var response = new CreateOrderResponse
+            {
+                Id = order.Id.ToString(),
+            };
+
+            return Created($"orders/{order.Id}", response);            
         }
     }
 #pragma warning restore CS1591 // Missing XML comment for publicly visible type or member

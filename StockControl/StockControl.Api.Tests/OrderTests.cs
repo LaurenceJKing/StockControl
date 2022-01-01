@@ -8,6 +8,7 @@ using FluentAssertions;
 using System.Net;
 using Microsoft.Extensions.DependencyInjection;
 using StockControl.Orders;
+using StockControl.Api.Orders;
 
 namespace StockControl.Api.Tests
 {
@@ -28,12 +29,14 @@ namespace StockControl.Api.Tests
 
             var response = await client.PostAsync("orders/create", null);
 
-            response.StatusCode.Should().Be(HttpStatusCode.Created);
-            response.Headers.Location?.ToString()
-                .Should()
-                .Be("orders/dc069aeb-5eb9-4f1b-9dba-bcc7d7b0c47d");
+            var json = await response.Content.ReadAsStringAsync();
+            var order = JsonSerializer.Deserialize<CreateOrderResponse>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
-            repository.Should().Contain(new Order());
+            order.Should().NotBeNull();
+            response.StatusCode.Should().Be(HttpStatusCode.Created);
+            response.Headers?.Location?.ToString().Should().Be($"orders/{order!.Id}");
+
+            repository.Should().Contain(o => o.Id.ToString() == order!.Id);
         }
     }
 }
